@@ -1,0 +1,16 @@
+Rules for Jinja Templating.
+
+1. {%  %} for logic, commands and statements
+for example
+{% if  condition %}
+    some html
+{% endif %}
+
+{% include "master.html" %} copy and paste
+{% extends "master.html" %}
+
+2. {{ }} are used to display a value
+age = 49
+full_name = "john michael
+{{ age }}
+{{ full_name }}

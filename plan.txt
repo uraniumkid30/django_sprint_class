@@ -1,0 +1,17 @@
+book club
+1. Create a new book
+- owner 
+- title of the book
+- description of the book
+- category or genre
+- rating
+- date it was created
+- date it was updated
+
+# functionality
+1. add a new book
+2. update an old book
+3. delete a book.
+4. member subscription
+5. view a list of books or a single book
+6. view list of members.

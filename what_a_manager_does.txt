@@ -1,0 +1,13 @@
+# model manager (objects)
+modelname.objects.all()
+modelname.objects.get(id=26)
+#retrival 
+1. retrieve all items or all data from a model (modelname.objects.all())
+2. retrieve some data from a model (modelname.objects.filter(title=""))
+3. retrieve a single item from a model ( modelname.objects.get(id=44))
+
+# creation
+1. create items in a model (modelname.objects.creat(title="test))
+
+# update
+1. updates

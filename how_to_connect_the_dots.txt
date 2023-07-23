@@ -1,0 +1,20 @@
+Django Template Website
+1. forms in the forms.py is mostly used in views.py to present and validate information
+2. models(tables) in models.py is used in
+    a. admin.py to register it in the admin interface
+    b. forms.py together with forms.ModelForm to create a form for it
+    c. views.py to fetch, create , update and delete data from the database.
+3. view functions and class in views.py is mostly used in the urls.py to bind a view class or function to
+a url path.
+4. template names in the template files usually go into the views.py file
+
+
+Django Rest Framework
+1. serializers in the serializers.py is mostly used in views.py to present and validate information
+2. models(tables) in models.py is used in
+    a. admin.py to register it in the admin interface
+    b. serializers.py together with serializers.ModelSerializer to create a Serializer for it
+    c. views.py to fetch, create , update and delete data from the database.
+3. view functions and class in views.py is mostly used in the urls.py to bind a view class or function to
+a url path.
+4. no template names

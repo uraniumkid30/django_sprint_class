@@ -1,0 +1,5 @@
+1. user browser
+2. user goes to domain address 127.0.0.1:8000
+3. django picks up the address goes to our urls file (tries to find a match)
+4. if it finds a match, it calls the name of the view specified in the views.py
+5. calls the view with a request and sends a response
