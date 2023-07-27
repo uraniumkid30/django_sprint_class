@@ -82,4 +82,8 @@ class CreateBookView(FormView):
             "book_form": self.form_class()
         }
         return TemplateResponse(request, self.template_name, context)
+    
+    def post(self, request, *args, **kwargs):
+        pass
         
+    
